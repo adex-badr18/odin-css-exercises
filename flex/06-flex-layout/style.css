@@ -53,6 +53,8 @@ li {
 
 .header {}
 
-.content {}
+.content {
+  flex: 1 1 0; /*pushes the footer to the bottom of the page*/
+}
 
 .footer {}
