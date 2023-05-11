@@ -37,11 +37,11 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
   padding: 0;
-}
-
-li {
-  list-style-type: none;
+  margin: 0;
+  list-style: none;
 }
 
 .header,
@@ -59,9 +59,4 @@ li {
   justify-content: center;
   gap: 8px;
   flex: 1 1 0; /*pushes the footer to the bottom of the page*/
-}
-
-.left-links, .right-links {
-  display: flex;
-  gap: 16px;
 }
